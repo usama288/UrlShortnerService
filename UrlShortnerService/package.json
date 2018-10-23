@@ -1,0 +1,30 @@
+{
+  "name": "url-shortner-service",
+  "version": "0.0.0",
+  "description": "UrlShortnerService",
+  "main": "server.js",
+  "author": {
+    "name": "Usama"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "level": "^4.0.0",
+    "leveldown": "^4.0.1",
+    "levelup": "^3.1.1",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0",
+    "body-parser": "^1.15.0",
+    "md5": "^2.2.1",
+    "base62": "^2.0.0",
+    "convert-string": "^0.1.0",
+    "express-validator": "^5.3.0",
+    "locks": "^0.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
