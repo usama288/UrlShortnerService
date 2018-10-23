@@ -4,6 +4,7 @@ var assert = require('assert');
 describe('URL Shortener', function () {
     describe('#process()', function () {
         it('Test to check long & short Urls', function () {
+            this.timeout(5000); // this test can take up to 5 seconds
             shortUrls = [];
             var testUrl = allPossibleCombinations('zxcvbn', 6);
          //   testUrl = ['zzzzcx.com','zvnvvb.com']
